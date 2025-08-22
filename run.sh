@@ -9,9 +9,10 @@ g++ SparseMatrix.cpp -o sparseM
 # Check if compilation was successful
 if [ $? -eq 0 ]; then
     echo "Compilation successful. Running program..."
-    ./program_exe
+    ./sparseM
 else
     echo "Compilation failed."
 fi
+
 
 
